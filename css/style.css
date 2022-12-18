@@ -1,0 +1,150 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(226, 246, 255);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.btns {
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+.btn__block {
+  max-width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.btn__block p {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.btn__block + .btn__block {
+  margin-top: 25px;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-left: 10px;
+  color: #000;
+  padding: 10px 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.wildberries {
+  background-color: rgb(127, 0, 195);
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.wildberries:hover {
+  background-color: rgb(171, 57, 232);
+}
+
+.ozon {
+  background-color: rgb(37, 99, 255);
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.ozon:hover {
+  background-color: rgb(104, 147, 255);
+}
+
+.opt {
+  background-color: rgb(0, 172, 29);
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.opt:hover {
+  background-color: rgb(34, 211, 64);
+}
+
+.roznic {
+  background-color: rgb(199, 115, 6);
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.roznic:hover {
+  background-color: rgb(212, 143, 53);
+}
+
+@media (max-width: 670px) {
+  h1 {
+    font-size: 27px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 23px;
+    line-height: 27px;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 19px;
+    line-height: 24px;
+  }
+  .btns {
+    margin-top: 25px;
+  }
+  .btn {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
